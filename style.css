@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+  
+}
+
+#board{
+    height: 540px;
+    width: 720px;
+    background: url("soil.png");
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+  
+   
+}
+#board div{
+    width: 180px;
+    height: 180px;
+    background: url("pipe.png");
+    background-size: cover;
+}
+#board div img {
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
