@@ -28,7 +28,7 @@ function setmole(){
         curmoletile.innerHTML="";
     }
     let mole=document.createElement("img");
-    mole.src="monty-mole.png";
+    mole.src="../assets/monty-mole.png";
     let num=(Math.floor(Math.random()*12));
     if(curpiranatree &&curpiranatree ==num){
         return;
@@ -48,7 +48,7 @@ function setpirana(){
     }
     
     let pirana=document.createElement("img");
-    pirana.src="piranha-plant.png";
+    pirana.src="../assets/piranha-plant.png";
 
     let num=(Math.floor(Math.random()*12));
     if(curmoletile &&curmoletile.id ==num){
