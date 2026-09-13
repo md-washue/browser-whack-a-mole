@@ -22,7 +22,7 @@
 #board div{
     width: 180px;
     height: 180px;
-    background: url("pipe.png");
+    background: url("../assets/pipe.png");
     background-size: cover;
 }
 #board div img {
